@@ -9,7 +9,7 @@ def historicalData(conidVal):
     base_url = "https://localhost:5000/v1/api/"
     endpoint = "iserver/marketdata/history"
 
-    conid=f"conid={694112250}"
+    conid=f"conid={conidVal}"
     period="period=1w"
     bar="bar=1d"
     startTime="startTime=20230824-16:00:00"
